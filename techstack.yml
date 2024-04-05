@@ -1,0 +1,757 @@
+repo_name: Rorschach3/explorer
+report_id: 8c10c951f11e5409adf8e7ce01bf1549
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-05T00:04:36+00:00'
+requested_by: crox-safe
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Rorschach3/explorer
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Rorschach3/explorer
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: astudnev
+  last_updated_on: 2020-03-31 22:33:26.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 6.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Nadia
+  last_updated_on: 2023-04-06 11:51:13.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Nadia
+  last_updated_on: 2023-04-10 12:03:02.000000000 Z
+- name: Capistrano
+  description: A remote server automation and deployment tool written in Ruby
+  website_url: http://capistranorb.com/
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/661/5da4e1d78e930197cb7dc002ceafdfda.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2022-10-21 08:57:16.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Rorschach3/explorer
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Ruslan
+  last_updated_on: 2021-02-11 13:31:12.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Rorschach3/explorer
+  detection_source: Repo Metadata
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/docker-compose/docker-compose.yml
+  detection_source: docker-compose/docker-compose.yml
+  last_updated_by: Andrey
+  last_updated_on: 2023-04-27 08:58:36.000000000 Z
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 4.3.10
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Rails Spring
+  description: Rails application preloader
+  website_url: https://github.com/rails/spring
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Rails Testing
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 1.22.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.46.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Spendil
+  last_updated_on: 2023-02-22 20:08:53.000000000 Z
+- name: Webpacker
+  description: Use Webpack to manage app-like JavaScript modules in Rails (by Rails)
+  website_url: https://github.com/rails/webpacker
+  version: 5.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Spendil
+  last_updated_on: 2023-02-22 20:08:53.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/config/environments/production.rb
+  detection_source: config/environments/production.rb
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 5.15.4
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: astudnev
+  last_updated_on: 2020-03-31 22:33:26.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Andrey
+  last_updated_on: 2019-12-16 14:54:36.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Rorschach3/explorer
+  detection_source: Repo Metadata
+- name: SockJS
+  description: A WebSocket emulation
+  website_url: https://github.com/sockjs/sockjs-node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2710/996163.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: Turbolinks
+  description: Makes navigating your web application faster
+  website_url: https://github.com/turbolinks/turbolinks
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/service/3028/default_ce0a839b05d39c32172761cba1f092a8433d381c.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Andrey
+  last_updated_on: 2020-05-15 16:04:09.000000000 Z
+- name: better_errors
+  description: Provides a better error page for Rails and other Rack apps
+  package_url: https://rubygems.org/better_errors
+  version: 2.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ruslan
+  last_updated_on: 2021-02-18 12:41:54.000000000 Z
+- name: binding_of_caller
+  description: Retrieve the binding of a method's caller
+  package_url: https://rubygems.org/binding_of_caller
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ruslan
+  last_updated_on: 2021-02-18 12:41:54.000000000 Z
+- name: capistrano-bundler
+  description: Bundler support for Capistrano 3.x
+  package_url: https://rubygems.org/capistrano-bundler
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19561/default_42e2846cdbe2604c34f08ca8adabee9f1880d3f6.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2022-10-21 08:57:16.000000000 Z
+- name: capistrano-rails
+  description: Rails specific Capistrano tasks
+  package_url: https://rubygems.org/capistrano-rails
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19576/image.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: dotenv-rails
+  description: Autoload dotenv in Rails
+  package_url: https://rubygems.org/dotenv-rails
+  version: 2.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19404/default_256f314e809c8e6655d38645e0a725102cea782b.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: exception_notification
+  description: Exception notification for Rails apps
+  package_url: https://rubygems.org/exception_notification
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19581/image.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2022-10-21 08:57:16.000000000 Z
+- name: feedjira
+  description: A feed parsing library
+  package_url: https://rubygems.org/feedjira
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19655/default_217a474c90a6421eca19a8e2dfa3b14100b29e9e.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ruslan
+  last_updated_on: 2021-03-24 17:02:51.000000000 Z
+- name: graphql-client
+  description: A Ruby library for declaring
+  package_url: https://rubygems.org/graphql-client
+  version: 0.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: 2.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  version: 3.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: astudnev
+  last_updated_on: 2019-11-17 21:05:22.000000000 Z
+- name: lograge
+  description: Tame Rails' multi-line logging into a single line per request
+  package_url: https://rubygems.org/lograge
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Ivanov
+  last_updated_on: 2023-04-27 15:21:26.000000000 Z
+- name: logstash-event
+  description: Library that contains the classes required to create LogStash events
+  package_url: https://rubygems.org/logstash-event
+  version: 1.2.02
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Ivanov
+  last_updated_on: 2023-04-27 15:21:26.000000000 Z
+- name: rubocop-performance
+  description: A collection of RuboCop cops to check for performance optimizations
+    in Ruby code
+  package_url: https://rubygems.org/rubocop-performance
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19003/default_ed0106f3a65a9fdb4ffde124a531663be2de70ba.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Gridin
+  last_updated_on: 2022-06-03 09:04:12.000000000 Z
+- name: rubocop-rails
+  description: Automatic Rails code style checking tool
+  package_url: https://rubygems.org/rubocop-rails
+  version: 2.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/sass-rails
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Stepanov
+  last_updated_on: 2023-05-03 13:14:16.000000000 Z
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  version: 1.2022.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andrey Gridin
+  last_updated_on: 2022-06-03 09:04:12.000000000 Z
+- name: web-console
+  description: A debugging tool for your Ruby on Rails applications
+  package_url: https://rubygems.org/web-console
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ruslan
+  last_updated_on: 2021-02-10 15:23:06.000000000 Z
+- name: "@babel/plugin-syntax-jsx"
+  description: Allow parsing of jsx
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-jsx
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17129/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Spendil
+  last_updated_on: 2023-02-22 20:08:53.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Spendil
+  last_updated_on: 2021-11-23 11:23:44.000000000 Z
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 5.15.4
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: astudnev
+  last_updated_on: 2020-03-31 22:33:26.000000000 Z
+- name: clipboard
+  description: Modern copy to clipboard. No Flash. Just 2kb
+  package_url: https://www.npmjs.com/clipboard
+  version: 2.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Andrey
+  last_updated_on: 2020-03-05 21:30:48.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Andrey
+  last_updated_on: 2019-12-16 14:54:36.000000000 Z
+- name: numeral
+  description: Format and manipulate numbers
+  package_url: https://www.npmjs.com/numeral
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Andrey
+  last_updated_on: 2020-05-18 12:37:58.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: astudnev
+  last_updated_on: 2020-03-31 22:33:26.000000000 Z
+- name: serialize-javascript
+  description: Serialize JavaScript to a superset of JSON that includes regular expressions
+    and functions
+  package_url: https://www.npmjs.com/serialize-javascript
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17203/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Spendil
+  last_updated_on: 2023-04-13 07:16:25.000000000 Z
+- name: sockjs-client
+  description: SockJS-client is a browser JavaScript library that provides a WebSocket-like
+    object
+  package_url: https://www.npmjs.com/sockjs-client
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17551/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Spendil
+  last_updated_on: 2021-11-23 11:23:44.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/Rorschach3/explorer/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Spendil
+  last_updated_on: 2023-02-22 20:08:53.000000000 Z
